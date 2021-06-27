@@ -1,0 +1,11 @@
+---
+application:
+  name: "nickpilot-server"
+  project: "NickPilot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-nickpilot-server"
+  routes:
+  - application_name: "nickpilot-server"
+    paths:
+    - "/*"
